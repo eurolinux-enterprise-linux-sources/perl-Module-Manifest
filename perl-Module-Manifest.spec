@@ -1,6 +1,6 @@
 Name:           perl-Module-Manifest
 Version:        1.08
-Release:        10%{?dist}
+Release:        9%{?dist}
 Summary:        Parse and examine a Perl distribution MANIFEST file
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -54,9 +54,6 @@ make test
 %{_mandir}/man3/*
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.08-10
-- Mass rebuild 2013-12-27
-
 * Wed Nov 07 2012 Petr Pisar <ppisar@redhat.com> - 1.08-9
 - Modernize spec file (EU::MM understands DESTDIR)
 
